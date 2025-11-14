@@ -1,4 +1,4 @@
-import apiClient from "../apiAxios.js";
+import apiClient from "./apiClient.js";
 
 async function testApi () {
   const data = await apiClient('/cities');

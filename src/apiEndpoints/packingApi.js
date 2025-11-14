@@ -1,4 +1,4 @@
-import apiClient from "../apiAxios.js";
+import apiClient from "./apiClient.js";
 
 export async function getAllEssentials() {
   const response = await apiClient.get("/essentials");
