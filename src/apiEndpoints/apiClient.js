@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = 'https://travelapp-project-back-end.onrender.com' || 'http://localhost:5173';
+const API_BASE_URL = import.meta.env.VITE_BACKEND_URL || 'https://travelapp-project-back-end.onrender.com';
 
 // Create an axios instance
 const apiClient = axios.create({
