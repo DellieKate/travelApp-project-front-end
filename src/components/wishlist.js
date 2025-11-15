@@ -18,7 +18,7 @@ export function useWishlists () {
 };
 
 export function useWishlist (id) {
-  const [wishlist, setWishlist] = useState([null]);
+  const [wishlist, setWishlist] = useState(null);
 
   useEffect(() => {
     if (!id) return;

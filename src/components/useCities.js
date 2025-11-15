@@ -18,7 +18,7 @@ export function useCities () {
 };
 
 export function useCity (id) {
-  const [city, setCity] = useState([null]);
+  const [city, setCity] = useState(null);
 
   useEffect(() => {
     if (!id) return;

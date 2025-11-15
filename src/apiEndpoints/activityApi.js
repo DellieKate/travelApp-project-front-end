@@ -1,7 +1,7 @@
 import apiClient from "./apiClient.js";
 
 export async function getActivities() {
-  const response = await apiClientpiClient.get("/activities");
+  const response = await apiClient.get("/activities");
   return response.data;
 };
 
