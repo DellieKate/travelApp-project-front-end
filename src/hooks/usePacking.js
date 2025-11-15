@@ -5,7 +5,7 @@ import {
   createEssential,
   updateOneEssentialById,
   deleteOneEssentialById
-} from "../apiEndpoints/cityApi.js"
+} from "../apiEndpoints/packingApi.js"
 
 export function useEssentials () {
   const [essentials, setEssentials] = useState([]);
@@ -18,7 +18,7 @@ export function useEssentials () {
 };
 
 export function useEssential (id) {
-  const [essential, setEssential] = useState([null]);
+  const [essential, setEssential] = useState(null);
 
   useEffect(() => {
     if (!id) return;
