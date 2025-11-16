@@ -13,9 +13,10 @@ export default function Login() {
       const data = await loginUser(email, password);
       setMessage("Login successful!");
       console.log("Token:", data.token);
-      localStorage.setItem("token", data.token);
+      // localStorage.setItem("token", data.token);
     } catch (error) {
       setMessage("Login failed.");
+      console.log("error", error);
     }
   };
 

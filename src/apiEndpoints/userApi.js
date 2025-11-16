@@ -5,8 +5,9 @@ export async function registerUser(userData) {
   return response.data;
 };
 
-export async function loginUser(details) {
-  const response = await apiClient.post("/users/login", details);
+export async function loginUser(email,password) {
+  console.log("Here....")
+  const response = await apiClient.post("/users/login", {"email": email , "password": password});
   return response.data;
 };
 
