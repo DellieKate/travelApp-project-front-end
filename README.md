@@ -8,13 +8,13 @@ This project is the frontend application of the TravelApp system. It works toget
 
 
 ## 🗂️ Table of Contents
-1. [Features](#features)
-2. [Pages](#pages)
-3. [Technologies Used](#technologies-used)
-4. [Installation and Setup](#installation-and-setup)
-5. [Deployment](#deployment)
-6. [Licence](#licence)
-7. [Images](#image-references)
+1. [Features](#-features)
+2. [Pages](#-features)
+3. [Technologies Used](#️-technologies-used)
+4. [Installation and Setup](#️-installation-and-setup)
+5. [Deployment](#-deployment)
+6. [Licence](#-licence)
+7. [Images](#️-image-references)
 
 
 ## ✨ Features
@@ -25,7 +25,7 @@ This project is the frontend application of the TravelApp system. It works toget
 
 ## 🖥️ Pages / Routes
 
--  "/" Homepage
+- "/" Homepage
 - "/login" 
 - "/register" 
 - "/cities"
