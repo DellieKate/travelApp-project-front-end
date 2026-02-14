@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = import.meta.env.VITE_BACKEND_URL || 'http://13.211.58.52:3000/' //'https://travelapp-project-back-end.onrender.com';
+const API_BASE_URL = import.meta.env.VITE_BACKEND_URL || 'https://travelapp-project-back-end-2.onrender.com';
 
 // Create an axios instance
 const apiClient = axios.create({
