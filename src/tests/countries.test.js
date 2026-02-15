@@ -1,8 +1,8 @@
 import { expect, test } from "vitest";
-import { getAllCountries } from "./apiEndpoints/countriesApi";
+import { getCountries } from "./apiEndpoints/countryApi.js";
 
 test("getAllCountries returns an array of countries", async () => {
-  const countries = await getAllCountries();
+  const countries = await getCountries();
 
   expect(Array.isArray(countries)).toBe(true);
 
